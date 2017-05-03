@@ -89,7 +89,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="Sv7-sF-wYs">
+                                                <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="Sv7-sF-wYs">
                                                     <rect key="frame" x="0.0" y="0.0" width="105" height="80"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
@@ -148,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-390" y="14"/>
+            <point key="canvasLocation" x="-212" y="35"/>
         </scene>
         <!--Pokemon DetailVC-->
         <scene sceneID="GNu-KJ-cCc">
@@ -166,10 +166,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rI-XS-vbT">
-                                        <rect key="frame" x="52" y="23" width="270" height="38"/>
+                                        <rect key="frame" x="64" y="23" width="258" height="38"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="270" id="qwq-KA-qj0"/>
+                                            <constraint firstAttribute="width" constant="258" id="qwq-KA-qj0"/>
                                             <constraint firstAttribute="height" constant="38" id="wod-Hm-Szi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="25"/>
@@ -190,7 +190,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="4rI-XS-vbT" firstAttribute="centerX" secondItem="pJG-st-pTz" secondAttribute="centerX" id="WMX-eP-FbI"/>
+                                    <constraint firstItem="4rI-XS-vbT" firstAttribute="centerX" secondItem="pJG-st-pTz" secondAttribute="centerX" constant="5.5" id="WMX-eP-FbI"/>
                                     <constraint firstItem="rKe-HM-eYw" firstAttribute="leading" secondItem="pJG-st-pTz" secondAttribute="leading" constant="7" id="Y7c-TP-Nn0"/>
                                     <constraint firstAttribute="bottom" secondItem="4rI-XS-vbT" secondAttribute="bottom" constant="4" id="l6C-YC-VZg"/>
                                     <constraint firstAttribute="trailing" secondItem="4rI-XS-vbT" secondAttribute="trailing" constant="53" id="mci-Z2-ZCe"/>
@@ -198,240 +198,158 @@
                                     <constraint firstItem="4rI-XS-vbT" firstAttribute="top" secondItem="pJG-st-pTz" secondAttribute="top" constant="23" id="zED-jy-mfT"/>
                                 </constraints>
                             </view>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ujW-CC-eaj">
-                                <rect key="frame" x="16" y="73" width="343" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="P6c-RU-EiU"/>
-                                    <constraint firstAttribute="width" constant="343" id="SpQ-OX-hym"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="Bio"/>
-                                    <segment title="Moves"/>
-                                </segments>
-                                <color key="tintColor" red="1" green="0.44349336624145508" blue="0.40517044067382812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </segmentedControl>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uag-jS-k57">
-                                <rect key="frame" x="16" y="109" width="125" height="125"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="yIT-cB-fsY">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="125" id="b08-Hh-cAY"/>
-                                            <constraint firstAttribute="height" constant="125" id="oPE-rj-5TR"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="RcU-uY-JGE">
-                                <rect key="frame" x="16" y="493" width="125" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="9bc-yt-64f"/>
-                                    <constraint firstAttribute="height" constant="125" id="QTs-7i-Fgz"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPZ-60-EN5" userLabel="Type">
-                                <rect key="frame" x="29" y="273" width="148" height="20.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZu-E5-qzD">
-                                        <rect key="frame" x="0.0" y="0.0" width="45.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Poison/Grass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAb-ij-TSl">
-                                        <rect key="frame" x="45.5" y="0.0" width="102.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfF-TJ-2jl" userLabel="Height">
-                                <rect key="frame" x="30" y="313" width="75.5" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LN-jz-rfX">
-                                        <rect key="frame" x="0.0" y="0.0" width="56.5" height="20"/>
-                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4p-Xd-94e">
-                                        <rect key="frame" x="56.5" y="0.0" width="19" height="20"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71V-r1-Acn" userLabel="Weight">
-                                <rect key="frame" x="16" y="354" width="90" height="20"/>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9m0-xp-TNw" userLabel="Base Attack">
-                                <rect key="frame" x="195" y="354" width="121.5" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Base Attack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxl-nZ-kQy">
-                                        <rect key="frame" x="0.0" y="0.0" width="102.5" height="20"/>
-                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4M-Ui-2U5">
-                                        <rect key="frame" x="102.5" y="0.0" width="19" height="20"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFU-hQ-zeJ" userLabel="Defense">
-                                <rect key="frame" x="195" y="273" width="88.5" height="20.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufM-E0-stE">
-                                        <rect key="frame" x="0.0" y="0.0" width="69.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="63" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-c4-EF1">
-                                        <rect key="frame" x="69.5" y="0.0" width="19" height="20.5"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="ntN-2H-fQC">
-                                <rect key="frame" x="234" y="493" width="125" height="125"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2aa-WF-BKg" userLabel="PokeID">
-                                <rect key="frame" x="195" y="313" width="105.5" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PokeDex ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMS-IL-C9c">
-                                        <rect key="frame" x="0.0" y="0.0" width="95.5" height="20"/>
-                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWQ-rB-mg8">
-                                        <rect key="frame" x="95.5" y="0.0" width="10" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="10" id="nvC-b2-dh7"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="105.5" id="UFY-cq-Nch"/>
-                                    <constraint firstAttribute="height" constant="20" id="XTA-H3-MPZ"/>
-                                </constraints>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmC-MY-08a">
-                                <rect key="frame" x="31" y="353" width="61.5" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4B-Ms-Bfk">
+                                <rect key="frame" x="40" y="245" width="56" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAA-m8-yq3">
-                                <rect key="frame" x="0.0" y="416" width="375" height="45"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukp-b1-cTs">
+                                <rect key="frame" x="40" y="297" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40m-Qq-Dz7">
+                                <rect key="frame" x="112" y="296" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H1-kH-DmI">
+                                <rect key="frame" x="112" y="341" width="68" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Base Attack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlj-Wk-C2I">
+                                <rect key="frame" x="184" y="341" width="110" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJA-A8-MHU">
+                                <rect key="frame" x="184" y="238" width="87" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yj1-p2-Z5Y">
+                                <rect key="frame" x="302" y="290" width="68" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfJ-dN-wWh">
+                                <rect key="frame" x="302" y="341" width="68" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PokeDex ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlm-6S-VaM">
+                                <rect key="frame" x="184" y="291" width="101" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFE-td-gd5">
+                                <rect key="frame" x="112" y="245" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlJ-ZV-kV4">
+                                <rect key="frame" x="40" y="341" width="64" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W5F-74-Ej4">
+                                <rect key="frame" x="29" y="91" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sa2-ej-58B">
+                                <rect key="frame" x="16" y="524" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QrK-yP-l6S">
+                                <rect key="frame" x="254" y="524" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Evolve" translatesAutoresizingMaskIntoConstraints="NO" id="afE-mt-BTr">
+                                <rect key="frame" x="149" y="538" width="77" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fpF-yS-J5l">
+                                <rect key="frame" x="0.0" y="412" width="375" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Evolution: Venusaur LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlw-Qp-XqB">
+                                        <rect key="frame" x="0.0" y="16" width="375" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.44349336624145508" blue="0.40517044067382812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-Yh-BFe">
-                                <rect key="frame" x="149" y="109" width="88" height="125"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56A-xY-QDn">
+                                <rect key="frame" x="302" y="238" width="68" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution: Venusaur LVL 32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMu-Yi-SiF">
-                                <rect key="frame" x="63" y="422" width="253.5" height="32"/>
                                 <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="130" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcB-FG-oOz">
-                                <rect key="frame" x="89" y="354" width="29" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="29" id="kLp-9u-LVR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHA-dJ-Miq">
+                                <rect key="frame" x="174" y="91" width="170" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Fonarto" family="Fonarto" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="sfF-TJ-2jl" firstAttribute="top" secondItem="mPZ-60-EN5" secondAttribute="bottom" constant="20" id="0fT-nt-e2H"/>
-                            <constraint firstItem="hAA-m8-yq3" firstAttribute="trailing" secondItem="pJG-st-pTz" secondAttribute="trailing" id="1Xi-Z7-U2E"/>
-                            <constraint firstItem="hAA-m8-yq3" firstAttribute="leading" secondItem="pJG-st-pTz" secondAttribute="leading" id="4eE-Cd-XRm"/>
-                            <constraint firstItem="71V-r1-Acn" firstAttribute="top" secondItem="QcB-FG-oOz" secondAttribute="top" id="5MQ-tZ-HbD"/>
-                            <constraint firstItem="71V-r1-Acn" firstAttribute="bottom" secondItem="AmC-MY-08a" secondAttribute="bottom" constant="1" id="7LK-kh-UKT"/>
-                            <constraint firstItem="kMu-Yi-SiF" firstAttribute="centerY" secondItem="D3q-q8-K9m" secondAttribute="centerY" constant="104.5" id="7kf-hZ-xGM"/>
                             <constraint firstItem="pJG-st-pTz" firstAttribute="top" secondItem="D3q-q8-K9m" secondAttribute="top" id="BPB-nu-gK0"/>
-                            <constraint firstItem="QcB-FG-oOz" firstAttribute="centerX" secondItem="mPZ-60-EN5" secondAttribute="centerX" constant="0.5" id="BYE-A8-Qox"/>
-                            <constraint firstItem="71V-r1-Acn" firstAttribute="top" secondItem="9m0-xp-TNw" secondAttribute="top" id="Cdf-Z9-woJ"/>
-                            <constraint firstItem="71V-r1-Acn" firstAttribute="centerY" secondItem="D3q-q8-K9m" secondAttribute="centerY" constant="30.5" id="GoO-YL-WPO"/>
-                            <constraint firstItem="2aa-WF-BKg" firstAttribute="leading" secondItem="sfF-TJ-2jl" secondAttribute="trailing" constant="89.5" id="I8W-Zo-cvI"/>
-                            <constraint firstItem="RcU-uY-JGE" firstAttribute="top" secondItem="ntN-2H-fQC" secondAttribute="top" id="IPP-UJ-6WJ"/>
-                            <constraint firstItem="uag-jS-k57" firstAttribute="top" secondItem="ujW-CC-eaj" secondAttribute="bottom" constant="8" symbolic="YES" id="IlD-lI-htx"/>
-                            <constraint firstItem="sfF-TJ-2jl" firstAttribute="top" secondItem="2aa-WF-BKg" secondAttribute="top" id="JM4-H9-seq"/>
-                            <constraint firstItem="uag-jS-k57" firstAttribute="leading" secondItem="ujW-CC-eaj" secondAttribute="leading" id="JWr-tb-88o"/>
-                            <constraint firstItem="9m0-xp-TNw" firstAttribute="leading" secondItem="71V-r1-Acn" secondAttribute="trailing" constant="89" id="KN7-6F-IdA"/>
-                            <constraint firstItem="2aa-WF-BKg" firstAttribute="leading" secondItem="9m0-xp-TNw" secondAttribute="leading" id="Mlp-xJ-chB"/>
-                            <constraint firstItem="sfF-TJ-2jl" firstAttribute="leading" secondItem="71V-r1-Acn" secondAttribute="leading" constant="14" id="P0d-Vj-UWc"/>
-                            <constraint firstItem="9m0-xp-TNw" firstAttribute="top" secondItem="2aa-WF-BKg" secondAttribute="bottom" constant="21" id="PUe-1r-pH7"/>
-                            <constraint firstItem="kMu-Yi-SiF" firstAttribute="centerX" secondItem="D3q-q8-K9m" secondAttribute="centerX" constant="2.25" id="S0R-22-Z2A"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2aa-WF-BKg" secondAttribute="trailing" constant="59" id="Th3-T0-ObL"/>
                             <constraint firstItem="pJG-st-pTz" firstAttribute="leading" secondItem="D3q-q8-K9m" secondAttribute="leading" id="VjK-Zw-mFC"/>
-                            <constraint firstItem="ujW-CC-eaj" firstAttribute="leading" secondItem="D3q-q8-K9m" secondAttribute="leadingMargin" id="WFB-Zh-cca"/>
-                            <constraint firstItem="ujW-CC-eaj" firstAttribute="top" secondItem="pJG-st-pTz" secondAttribute="bottom" constant="8" id="dR0-tj-XAd"/>
-                            <constraint firstItem="AFU-hQ-zeJ" firstAttribute="leading" secondItem="mPZ-60-EN5" secondAttribute="trailing" constant="18" id="fNu-Sb-9Eh"/>
-                            <constraint firstItem="RcU-uY-JGE" firstAttribute="leading" secondItem="D3q-q8-K9m" secondAttribute="leadingMargin" id="g3E-qN-Rkn"/>
-                            <constraint firstItem="mPZ-60-EN5" firstAttribute="leading" secondItem="sfF-TJ-2jl" secondAttribute="leading" constant="-1" id="kVC-QO-w6Z"/>
-                            <constraint firstItem="AFU-hQ-zeJ" firstAttribute="leading" secondItem="2aa-WF-BKg" secondAttribute="leading" id="kyB-qA-m6A"/>
-                            <constraint firstItem="ntN-2H-fQC" firstAttribute="leading" secondItem="RcU-uY-JGE" secondAttribute="trailing" constant="93" id="ldL-qu-nCJ"/>
-                            <constraint firstItem="hAA-m8-yq3" firstAttribute="top" secondItem="D3q-q8-K9m" secondAttribute="top" constant="416" id="lkH-FL-ZmY"/>
-                            <constraint firstItem="71V-r1-Acn" firstAttribute="leading" secondItem="AmC-MY-08a" secondAttribute="leading" constant="-15" id="n13-de-5RT"/>
-                            <constraint firstItem="RcU-uY-JGE" firstAttribute="top" secondItem="hAA-m8-yq3" secondAttribute="bottom" constant="32" id="ndN-xH-7ed"/>
-                            <constraint firstItem="AmC-MY-08a" firstAttribute="top" secondItem="QcB-FG-oOz" secondAttribute="top" constant="-1" id="ntI-y6-KKF"/>
-                            <constraint firstItem="2aa-WF-BKg" firstAttribute="top" secondItem="AFU-hQ-zeJ" secondAttribute="bottom" constant="20" id="qCG-bN-9Xl"/>
-                            <constraint firstAttribute="bottom" secondItem="RcU-uY-JGE" secondAttribute="bottom" constant="49" id="rPJ-mc-7Jc"/>
-                            <constraint firstItem="RcU-uY-JGE" firstAttribute="bottom" secondItem="ntN-2H-fQC" secondAttribute="bottom" id="rqd-Bn-zsC"/>
                             <constraint firstAttribute="trailing" secondItem="pJG-st-pTz" secondAttribute="trailing" id="tR6-3K-Zlw"/>
-                            <constraint firstItem="mPZ-60-EN5" firstAttribute="top" secondItem="AFU-hQ-zeJ" secondAttribute="top" id="teP-Ub-Xzu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ntN-2H-fQC" secondAttribute="trailing" id="uVr-OI-2f3"/>
-                            <constraint firstItem="ujW-CC-eaj" firstAttribute="trailing" secondItem="D3q-q8-K9m" secondAttribute="trailingMargin" id="ucv-Uq-YZG"/>
-                            <constraint firstItem="kMu-Yi-SiF" firstAttribute="top" secondItem="D3q-q8-K9m" secondAttribute="top" constant="422" id="vKH-g7-42I"/>
-                            <constraint firstItem="uag-jS-k57" firstAttribute="leading" secondItem="mPZ-60-EN5" secondAttribute="leading" constant="-13" id="xrK-0D-4BD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2aa-WF-BKg" secondAttribute="trailing" constant="58.5" id="yVK-yH-9rU"/>
-                            <constraint firstItem="mPZ-60-EN5" firstAttribute="top" secondItem="uag-jS-k57" secondAttribute="bottom" constant="39" id="zId-h9-Aoi"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="attackLbl" destination="Cxl-nZ-kQy" id="6Ew-yG-Ddb"/>
-                        <outlet property="currentEvoImg" destination="RcU-uY-JGE" id="WVj-Mb-dcF"/>
-                        <outlet property="defenseLbl" destination="ufM-E0-stE" id="9Mm-6g-FaL"/>
-                        <outlet property="descriptionLbl" destination="Pij-Yh-BFe" id="8Vq-8g-iwv"/>
-                        <outlet property="evoLbl" destination="kMu-Yi-SiF" id="bGB-lq-jBF"/>
-                        <outlet property="heightLbl" destination="1LN-jz-rfX" id="HHd-3s-jfC"/>
-                        <outlet property="mainImg" destination="yIT-cB-fsY" id="JyU-Is-bOs"/>
+                        <outlet property="attackLbl" destination="LfJ-dN-wWh" id="IL1-eJ-6zk"/>
+                        <outlet property="currentEvoImg" destination="Sa2-ej-58B" id="RPj-af-9gM"/>
+                        <outlet property="defenseLbl" destination="56A-xY-QDn" id="mG3-yE-FaF"/>
+                        <outlet property="descriptionLbl" destination="fHA-dJ-Miq" id="66s-Oe-Lrv"/>
+                        <outlet property="evoLbl" destination="jlw-Qp-XqB" id="Bh2-gr-7vH"/>
+                        <outlet property="heightLbl" destination="40m-Qq-Dz7" id="iNQ-pq-RTc"/>
+                        <outlet property="mainImg" destination="W5F-74-Ej4" id="pUc-oL-pqs"/>
                         <outlet property="nameLbl" destination="4rI-XS-vbT" id="EN9-JN-nc0"/>
-                        <outlet property="nextEvoImg" destination="ntN-2H-fQC" id="EN9-P7-Er0"/>
-                        <outlet property="pokedexLbl" destination="WMS-IL-C9c" id="mfz-5l-kZg"/>
-                        <outlet property="typeLbl" destination="JZu-E5-qzD" id="DFh-gN-aDP"/>
-                        <outlet property="weightLbl" destination="AmC-MY-08a" id="Ic1-Oj-Zom"/>
+                        <outlet property="nextEvoImg" destination="QrK-yP-l6S" id="Oy7-nA-A9l"/>
+                        <outlet property="pokedexLbl" destination="yj1-p2-Z5Y" id="HAK-6T-3Eg"/>
+                        <outlet property="typeLbl" destination="FFE-td-gd5" id="w0i-g6-TmC"/>
+                        <outlet property="weightLbl" destination="6H1-kH-DmI" id="DKp-px-skd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvl-ok-nfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="13.943028485757123"/>
+            <point key="canvasLocation" x="492" y="35"/>
         </scene>
     </scenes>
     <resources>
         <image name="4" width="120" height="120"/>
-        <image name="5" width="120" height="120"/>
+        <image name="Evolve" width="512" height="352"/>
         <image name="back.png" width="100" height="67"/>
         <image name="bg" width="1920" height="1200"/>
         <image name="music.png" width="100" height="100"/>
