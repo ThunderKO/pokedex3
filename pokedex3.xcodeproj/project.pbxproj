@@ -12,6 +12,7 @@
 		A117EF251EB96B96009A498D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117EF231EB96B96009A498D /* Main.storyboard */; };
 		A117EF271EB96B96009A498D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A117EF261EB96B96009A498D /* Assets.xcassets */; };
 		A117EF2A1EB96B96009A498D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A117EF281EB96B96009A498D /* LaunchScreen.storyboard */; };
+		A117EF321EB96F04009A498D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A117EF311EB96F04009A498D /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A117EF261EB96B96009A498D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A117EF291EB96B96009A498D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A117EF2B1EB96B96009A498D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A117EF311EB96F04009A498D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				A117EF211EB96B96009A498D /* ViewController.swift */,
 				A117EF231EB96B96009A498D /* Main.storyboard */,
 				A117EF261EB96B96009A498D /* Assets.xcassets */,
+				A117EF311EB96F04009A498D /* pokemon.csv */,
 				A117EF281EB96B96009A498D /* LaunchScreen.storyboard */,
 				A117EF2B1EB96B96009A498D /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				A117EF2A1EB96B96009A498D /* LaunchScreen.storyboard in Resources */,
 				A117EF271EB96B96009A498D /* Assets.xcassets in Resources */,
+				A117EF321EB96F04009A498D /* pokemon.csv in Resources */,
 				A117EF251EB96B96009A498D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				A117EF301EB96B96009A498D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
